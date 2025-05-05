@@ -1,0 +1,33 @@
+[2025-05-04T18:29:16.321+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-05-04T18:29:16.383+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main.task_first manual__2025-05-04T18:29:14.063518+00:00 [queued]>
+[2025-05-04T18:29:16.404+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main.task_first manual__2025-05-04T18:29:14.063518+00:00 [queued]>
+[2025-05-04T18:29:16.405+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-05-04T18:29:16.444+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): task_first> on 2025-05-04 18:29:14.063518+00:00
+[2025-05-04T18:29:16.455+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=779) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-04T18:29:16.459+0000] {standard_task_runner.py:63} INFO - Started process 780 to run task
+[2025-05-04T18:29:16.459+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'main', 'task_first', 'manual__2025-05-04T18:29:14.063518+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmpk25urqfg']
+[2025-05-04T18:29:16.461+0000] {standard_task_runner.py:91} INFO - Job 134: Subtask task_first
+[2025-05-04T18:29:16.560+0000] {task_command.py:426} INFO - Running <TaskInstance: main.task_first manual__2025-05-04T18:29:14.063518+00:00 [running]> on host 3d59bb7e8591
+[2025-05-04T18:29:16.746+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main' AIRFLOW_CTX_TASK_ID='task_first' AIRFLOW_CTX_EXECUTION_DATE='2025-05-04T18:29:14.063518+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-04T18:29:14.063518+00:00'
+[2025-05-04T18:29:16.747+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-05-04T18:29:39.013+0000] {logging_mixin.py:188} INFO - root
+ |-- _c0: string (nullable = true)
+ |-- _c1: string (nullable = true)
+ |-- _c2: string (nullable = true)
+ |-- _c3: string (nullable = true)
+ |-- _c4: string (nullable = true)
+ |-- _c5: string (nullable = true)
+ |-- _c6: string (nullable = true)
+ |-- _c7: string (nullable = true)
+ |-- _c8: string (nullable = true)
+ |-- _c9: string (nullable = true)
+ |-- _c10: string (nullable = true)
+ |-- _c11: string (nullable = true)
+[2025-05-04T18:29:39.015+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-05-04T18:29:39.018+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-05-04T18:29:39.039+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=main, task_id=task_first, run_id=manual__2025-05-04T18:29:14.063518+00:00, execution_date=20250504T182914, start_date=20250504T182916, end_date=20250504T182939
+[2025-05-04T18:29:39.081+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-05-04T18:29:39.117+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-04T18:29:39.120+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

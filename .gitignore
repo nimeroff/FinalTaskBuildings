@@ -1,0 +1,9 @@
+#игнор конфиг файла
+/.env
+#БД
+/*.db
+/.idea
+*/__pycache__
+# Игнорировать виртуальное окружение Python
+/venv
+russian_houses.csv

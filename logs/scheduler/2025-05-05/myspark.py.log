@@ -1,0 +1,1358 @@
+[2025-05-05T06:52:43.104+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:52:43.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:52:43.180+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:52:43.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:52:43.994+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:52:44.200+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:52:44.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:52:44.216+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:52:44.216+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:52:44.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 1.165 seconds
+[2025-05-05T06:53:14.969+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:53:14.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:53:14.981+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:53:14.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:53:15.152+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:53:15.181+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:53:15.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:53:15.195+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:53:15.195+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:53:15.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.281 seconds
+[2025-05-05T06:53:45.656+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:53:45.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:53:45.660+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:53:45.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:53:45.825+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:53:45.856+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:53:45.855+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:53:45.871+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:53:45.871+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:53:45.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.246 seconds
+[2025-05-05T06:54:16.652+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:54:16.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:54:16.656+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:54:16.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:54:16.823+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:54:16.854+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:54:16.853+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:54:16.870+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:54:16.869+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:54:16.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.248 seconds
+[2025-05-05T06:54:47.295+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:54:47.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:54:47.300+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:54:47.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:54:47.489+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:54:47.526+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:54:47.526+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:54:47.545+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:54:47.545+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:54:47.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.289 seconds
+[2025-05-05T06:55:18.150+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:55:18.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:55:18.153+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:55:18.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:55:18.305+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:55:18.339+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:55:18.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:55:18.357+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:55:18.356+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:55:18.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.241 seconds
+[2025-05-05T06:55:49.195+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:55:49.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:55:49.202+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:55:49.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:55:49.412+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:55:49.447+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:55:49.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:55:49.462+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:55:49.462+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:55:49.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.326 seconds
+[2025-05-05T06:56:20.280+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:56:20.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:56:20.283+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:56:20.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:56:20.440+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:56:20.470+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:56:20.470+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:56:20.487+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:56:20.487+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:56:20.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.237 seconds
+[2025-05-05T06:56:51.373+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:56:51.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:56:51.385+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:56:51.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:56:51.588+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:56:51.619+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:56:51.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:56:51.634+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:56:51.634+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:56:51.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.319 seconds
+[2025-05-05T06:57:22.464+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:57:22.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:57:22.468+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:57:22.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:57:22.639+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:57:22.676+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:57:22.676+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:57:22.709+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:57:22.708+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:57:22.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.278 seconds
+[2025-05-05T06:57:53.044+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:57:53.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:57:53.047+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:57:53.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:57:53.191+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:57:53.220+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:57:53.220+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:57:53.236+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:57:53.235+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:57:53.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.224 seconds
+[2025-05-05T06:58:24.157+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:58:24.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:58:24.172+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:58:24.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:58:24.387+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:58:24.414+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:58:24.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:58:24.431+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:58:24.430+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:58:24.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.328 seconds
+[2025-05-05T06:58:54.882+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:58:54.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:58:54.885+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:58:54.885+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:58:55.051+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:58:55.086+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:58:55.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:58:55.103+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:58:55.103+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:58:55.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.255 seconds
+[2025-05-05T06:59:25.613+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:59:25.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:59:25.616+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:59:25.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:59:25.760+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:59:25.788+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:59:25.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:59:25.801+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:59:25.801+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:59:25.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.218 seconds
+[2025-05-05T06:59:56.324+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T06:59:56.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T06:59:56.329+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:59:56.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T06:59:56.512+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T06:59:56.549+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:59:56.549+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T06:59:56.565+0000] {logging_mixin.py:188} INFO - [2025-05-05T06:59:56.565+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T06:59:56.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.303 seconds
+[2025-05-05T07:00:27.323+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:00:27.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:00:27.328+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:00:27.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:00:27.534+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:00:27.574+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:00:27.574+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:00:27.600+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:00:27.599+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:00:27.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.316 seconds
+[2025-05-05T07:00:58.592+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:00:58.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:00:58.604+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:00:58.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:00:58.830+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:00:58.864+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:00:58.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:00:58.880+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:00:58.880+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:00:58.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.355 seconds
+[2025-05-05T07:01:29.682+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:01:29.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:01:29.688+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:01:29.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:01:29.840+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:01:29.867+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:01:29.867+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:01:29.882+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:01:29.882+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:01:29.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.241 seconds
+[2025-05-05T07:02:00.601+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:02:00.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:02:00.606+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:02:00.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:02:00.776+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:02:00.807+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:02:00.807+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:02:00.822+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:02:00.822+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:02:00.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.251 seconds
+[2025-05-05T07:02:31.548+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:02:31.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:02:31.554+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:02:31.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:02:31.696+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:02:31.722+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:02:31.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:02:31.734+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:02:31.734+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:02:31.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.220 seconds
+[2025-05-05T07:03:02.284+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:03:02.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:03:02.288+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:03:02.288+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:03:02.430+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:03:02.458+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:03:02.458+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:03:02.472+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:03:02.472+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:03:02.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.215 seconds
+[2025-05-05T07:03:33.256+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:03:33.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:03:33.261+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:03:33.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:03:33.393+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:03:33.419+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:03:33.419+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:03:33.432+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:03:33.432+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:03:33.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.203 seconds
+[2025-05-05T07:04:04.007+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:04:04.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:04:04.011+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:04:04.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:04:04.150+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:04:04.177+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:04:04.177+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:04:04.194+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:04:04.194+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:04:04.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.217 seconds
+[2025-05-05T07:04:34.664+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:04:34.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:04:34.668+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:04:34.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:04:34.811+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:04:34.840+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:04:34.840+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:04:34.856+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:04:34.856+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:04:34.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.222 seconds
+[2025-05-05T07:05:05.368+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:05:05.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:05:05.373+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:05:05.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:05:05.527+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:05:05.554+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:05:05.554+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:05:05.567+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:05:05.567+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:05:05.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.226 seconds
+[2025-05-05T07:05:36.015+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:05:36.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:05:36.018+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:05:36.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:05:36.150+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:05:36.176+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:05:36.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:05:36.189+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:05:36.189+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:05:36.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.211 seconds
+[2025-05-05T07:06:06.727+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:06:06.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:06:06.730+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:06:06.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:06:06.902+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:06:06.928+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:06:06.928+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:06:06.945+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:06:06.945+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:06:06.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.247 seconds
+[2025-05-05T07:06:37.401+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:06:37.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:06:37.403+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:06:37.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:06:37.535+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:06:37.561+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:06:37.561+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:06:37.573+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:06:37.573+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:06:37.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.202 seconds
+[2025-05-05T07:07:08.295+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:07:08.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:07:08.299+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:07:08.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:07:08.560+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:07:08.599+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:07:08.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:07:08.619+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:07:08.619+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:07:08.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.362 seconds
+[2025-05-05T07:07:39.428+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:07:39.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:07:39.432+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:07:39.431+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:07:39.592+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:07:39.618+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:07:39.617+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:07:39.632+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:07:39.632+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:07:39.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T07:08:10.566+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:08:10.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:08:10.571+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:08:10.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:08:10.706+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:08:10.737+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:08:10.736+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:08:10.750+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:08:10.749+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:08:10.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.213 seconds
+[2025-05-05T07:08:41.123+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:08:41.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:08:41.127+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:08:41.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:08:41.333+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:08:41.374+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:08:41.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:08:41.389+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:08:41.389+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:08:41.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.305 seconds
+[2025-05-05T07:09:11.986+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:09:12.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:09:12.093+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:09:12.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:09:12.223+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:09:12.248+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:09:12.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:09:12.260+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:09:12.260+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:09:12.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.302 seconds
+[2025-05-05T07:09:42.792+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:09:42.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:09:42.797+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:09:42.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:09:42.966+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:09:42.991+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:09:42.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:09:43.004+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:09:43.004+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:09:43.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.243 seconds
+[2025-05-05T07:10:13.714+0000] {processor.py:161} INFO - Started process (PID=408) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:10:13.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:10:13.717+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:10:13.716+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:10:13.869+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:10:13.902+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:10:13.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:10:13.924+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:10:13.924+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:10:13.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.243 seconds
+[2025-05-05T07:10:44.650+0000] {processor.py:161} INFO - Started process (PID=418) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:10:44.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:10:44.653+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:10:44.653+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:10:44.804+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:10:44.834+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:10:44.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:10:44.849+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:10:44.849+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:10:44.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.267 seconds
+[2025-05-05T07:11:15.467+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:11:15.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:11:15.470+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:11:15.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:11:15.608+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:11:15.634+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:11:15.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:11:15.647+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:11:15.646+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:11:15.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.208 seconds
+[2025-05-05T07:11:46.103+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:11:46.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:11:46.108+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:11:46.107+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:11:46.245+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:11:46.271+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:11:46.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:11:46.284+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:11:46.284+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:11:46.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.213 seconds
+[2025-05-05T07:12:16.840+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:12:16.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:12:16.843+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:12:16.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:12:16.982+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:12:17.009+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:12:17.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:12:17.022+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:12:17.022+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:12:17.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.216 seconds
+[2025-05-05T07:12:48.016+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:12:48.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:12:48.020+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:12:48.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:12:48.207+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:12:48.248+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:12:48.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:12:48.265+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:12:48.265+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:12:48.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.286 seconds
+[2025-05-05T07:13:18.694+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:13:18.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:13:18.700+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:13:18.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:13:18.991+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:13:19.031+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:13:19.031+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:13:19.049+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:13:19.049+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:13:19.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.390 seconds
+[2025-05-05T07:13:49.370+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:13:49.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:13:49.373+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:13:49.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:13:49.513+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:13:49.541+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:13:49.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:13:49.554+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:13:49.554+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:13:49.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.215 seconds
+[2025-05-05T07:14:20.167+0000] {processor.py:161} INFO - Started process (PID=494) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:14:20.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:14:20.179+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:14:20.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:14:20.415+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:14:20.442+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:14:20.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:14:20.455+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:14:20.455+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:14:20.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.336 seconds
+[2025-05-05T07:14:50.819+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:14:50.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:14:50.823+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:14:50.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:14:50.978+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:14:51.004+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:14:51.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:14:51.017+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:14:51.016+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:14:51.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.223 seconds
+[2025-05-05T07:15:21.598+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:15:21.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:15:21.613+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:15:21.612+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:15:21.820+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:15:21.851+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:15:21.850+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:15:21.867+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:15:21.866+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:15:21.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.317 seconds
+[2025-05-05T07:15:52.743+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:15:52.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:15:52.747+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:15:52.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:15:52.908+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:15:52.938+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:15:52.938+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:15:52.950+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:15:52.950+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:15:52.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.240 seconds
+[2025-05-05T07:16:23.392+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:16:23.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:16:23.396+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:16:23.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:16:23.542+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:16:23.568+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:16:23.567+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:16:23.582+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:16:23.582+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:16:23.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.222 seconds
+[2025-05-05T07:16:54.170+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:16:54.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:16:54.174+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:16:54.174+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:16:54.317+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:16:54.345+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:16:54.345+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:16:54.359+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:16:54.359+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:16:54.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.221 seconds
+[2025-05-05T07:17:25.068+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:17:25.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:17:25.072+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:17:25.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:17:25.235+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:17:25.272+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:17:25.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:17:25.286+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:17:25.286+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:17:25.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.246 seconds
+[2025-05-05T07:17:56.010+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:17:56.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:17:56.014+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:17:56.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:17:56.187+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:17:56.217+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:17:56.217+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:17:56.233+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:17:56.232+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:17:56.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.253 seconds
+[2025-05-05T07:18:27.033+0000] {processor.py:161} INFO - Started process (PID=574) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:18:27.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:18:27.036+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:18:27.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:18:27.192+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:18:27.219+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:18:27.219+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:18:27.232+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:18:27.232+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:18:27.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.234 seconds
+[2025-05-05T07:18:57.984+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:18:57.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:18:57.988+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:18:57.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:18:58.165+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:18:58.192+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:18:58.192+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:18:58.210+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:18:58.210+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:18:58.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.258 seconds
+[2025-05-05T07:19:29.050+0000] {processor.py:161} INFO - Started process (PID=594) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:19:29.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:19:29.057+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:19:29.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:19:29.333+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:19:29.363+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:19:29.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:19:29.376+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:19:29.376+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:19:29.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.361 seconds
+[2025-05-05T07:19:59.878+0000] {processor.py:161} INFO - Started process (PID=604) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:19:59.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:19:59.882+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:19:59.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:20:00.026+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:20:00.054+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:20:00.054+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:20:00.070+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:20:00.070+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:20:00.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.224 seconds
+[2025-05-05T07:20:30.711+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:20:30.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:20:30.714+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:20:30.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:20:30.848+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:20:30.875+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:20:30.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:20:30.888+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:20:30.887+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:20:30.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.205 seconds
+[2025-05-05T07:21:01.424+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:21:01.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:21:01.427+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:21:01.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:21:01.564+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:21:01.591+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:21:01.590+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:21:01.603+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:21:01.603+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:21:01.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.207 seconds
+[2025-05-05T07:21:32.380+0000] {processor.py:161} INFO - Started process (PID=635) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:21:32.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:21:32.392+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:21:32.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:21:32.646+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:21:32.672+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:21:32.671+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:21:32.684+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:21:32.684+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:21:32.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.393 seconds
+[2025-05-05T07:22:03.102+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:22:03.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:22:03.105+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:22:03.105+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:22:03.237+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:22:03.263+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:22:03.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:22:03.277+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:22:03.277+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:22:03.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.203 seconds
+[2025-05-05T07:22:33.781+0000] {processor.py:161} INFO - Started process (PID=655) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:22:33.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:22:33.785+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:22:33.785+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:22:33.936+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:22:33.965+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:22:33.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:22:33.980+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:22:33.980+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:22:34.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.232 seconds
+[2025-05-05T07:23:04.744+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:23:04.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:23:04.748+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:23:04.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:23:04.887+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:23:04.915+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:23:04.915+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:23:04.929+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:23:04.929+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:23:04.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.214 seconds
+[2025-05-05T07:23:35.504+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:23:35.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:23:35.507+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:23:35.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:23:35.645+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:23:35.670+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:23:35.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:23:35.682+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:23:35.682+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:23:35.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T07:24:06.272+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:24:06.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:24:06.275+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:24:06.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:24:06.421+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:24:06.449+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:24:06.448+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:24:06.462+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:24:06.462+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:24:06.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.222 seconds
+[2025-05-05T07:24:36.850+0000] {processor.py:161} INFO - Started process (PID=695) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:24:36.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:24:36.856+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:24:36.855+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:24:37.049+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:24:37.075+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:24:37.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:24:37.089+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:24:37.089+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:24:37.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.266 seconds
+[2025-05-05T07:25:07.739+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:25:07.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:25:07.742+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:25:07.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:25:07.879+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:25:07.905+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:25:07.905+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:25:07.918+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:25:07.918+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:25:07.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.208 seconds
+[2025-05-05T07:25:38.382+0000] {processor.py:161} INFO - Started process (PID=715) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:25:38.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:25:38.386+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:25:38.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:25:38.569+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:25:38.603+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:25:38.603+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:25:38.622+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:25:38.621+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:25:38.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.274 seconds
+[2025-05-05T07:26:09.278+0000] {processor.py:161} INFO - Started process (PID=725) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:26:09.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:26:09.283+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:26:09.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:26:09.587+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:26:09.616+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:26:09.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:26:09.630+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:26:09.630+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:26:09.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.383 seconds
+[2025-05-05T07:26:40.470+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:26:40.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:26:40.474+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:26:40.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:26:40.659+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:26:40.692+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:26:40.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:26:40.707+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:26:40.707+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:26:40.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.268 seconds
+[2025-05-05T07:27:11.292+0000] {processor.py:161} INFO - Started process (PID=745) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:27:11.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:27:11.297+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:27:11.296+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:27:11.441+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:27:11.472+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:27:11.472+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:27:11.486+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:27:11.486+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:27:11.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.239 seconds
+[2025-05-05T07:27:41.922+0000] {processor.py:161} INFO - Started process (PID=755) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:27:41.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:27:41.926+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:27:41.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:27:42.058+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:27:42.084+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:27:42.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:27:42.102+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:27:42.101+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:27:42.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T07:28:12.893+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:28:12.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:28:12.897+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:28:12.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:28:13.049+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:28:13.077+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:28:13.077+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:28:13.090+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:28:13.089+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:28:13.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.228 seconds
+[2025-05-05T07:28:43.568+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:28:43.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:28:43.571+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:28:43.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:28:43.712+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:28:43.738+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:28:43.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:28:43.751+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:28:43.750+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:28:43.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.216 seconds
+[2025-05-05T07:29:14.258+0000] {processor.py:161} INFO - Started process (PID=785) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:29:14.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:29:14.262+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:29:14.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:29:14.414+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:29:14.442+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:29:14.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:29:14.454+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:29:14.454+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:29:14.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.222 seconds
+[2025-05-05T07:29:45.024+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:29:45.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:29:45.028+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:29:45.027+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:29:45.162+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:29:45.188+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:29:45.187+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:29:45.200+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:29:45.200+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:29:45.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.202 seconds
+[2025-05-05T07:30:15.754+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:30:15.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:30:15.759+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:30:15.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:30:15.921+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:30:15.950+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:30:15.950+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:30:15.964+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:30:15.964+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:30:15.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.242 seconds
+[2025-05-05T07:30:46.543+0000] {processor.py:161} INFO - Started process (PID=815) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:30:46.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:30:46.547+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:30:46.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:30:46.692+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:30:46.721+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:30:46.721+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:30:46.742+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:30:46.742+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:30:46.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T07:31:17.154+0000] {processor.py:161} INFO - Started process (PID=825) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:31:17.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:31:17.158+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:31:17.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:31:17.296+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:31:17.323+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:31:17.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:31:17.335+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:31:17.335+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:31:17.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.214 seconds
+[2025-05-05T07:31:48.152+0000] {processor.py:161} INFO - Started process (PID=835) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:31:48.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:31:48.156+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:31:48.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:31:48.305+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:31:48.331+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:31:48.330+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:31:48.343+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:31:48.343+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:31:48.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.222 seconds
+[2025-05-05T07:32:18.826+0000] {processor.py:161} INFO - Started process (PID=845) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:32:18.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:32:18.829+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:32:18.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:32:18.984+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:32:19.010+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:32:19.010+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:32:19.026+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:32:19.025+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:32:19.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T07:32:49.598+0000] {processor.py:161} INFO - Started process (PID=861) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:32:49.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:32:49.603+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:32:49.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:32:49.907+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:32:49.949+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:32:49.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:32:49.967+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:32:49.966+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:32:49.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.399 seconds
+[2025-05-05T07:33:20.706+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:33:20.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:33:20.709+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:33:20.709+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:33:20.865+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:33:20.898+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:33:20.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:33:20.922+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:33:20.922+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:33:20.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.248 seconds
+[2025-05-05T07:33:51.758+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:33:51.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:33:51.762+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:33:51.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:33:51.931+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:33:51.964+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:33:51.964+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:33:51.981+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:33:51.981+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:33:52.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.255 seconds
+[2025-05-05T07:34:22.495+0000] {processor.py:161} INFO - Started process (PID=891) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:34:22.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:34:22.499+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:34:22.498+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:34:22.683+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:34:22.709+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:34:22.709+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:34:22.724+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:34:22.724+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:34:22.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.257 seconds
+[2025-05-05T07:34:53.274+0000] {processor.py:161} INFO - Started process (PID=901) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:34:53.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:34:53.278+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:34:53.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:34:53.422+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:34:53.454+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:34:53.454+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:34:53.470+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:34:53.470+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:34:53.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T07:35:24.016+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:35:24.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:35:24.020+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:35:24.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:35:24.197+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:35:24.223+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:35:24.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:35:24.237+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:35:24.237+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:35:24.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.248 seconds
+[2025-05-05T07:35:54.680+0000] {processor.py:161} INFO - Started process (PID=921) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:35:54.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:35:54.684+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:35:54.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:35:54.822+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:35:54.847+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:35:54.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:35:54.860+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:35:54.860+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:35:54.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.208 seconds
+[2025-05-05T07:36:25.625+0000] {processor.py:161} INFO - Started process (PID=931) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:36:25.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:36:25.628+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:36:25.628+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:36:25.761+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:36:25.786+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:36:25.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:36:25.800+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:36:25.799+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:36:25.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.201 seconds
+[2025-05-05T07:36:56.276+0000] {processor.py:161} INFO - Started process (PID=941) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:36:56.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:36:56.399+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:36:56.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:36:56.609+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:36:56.644+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:36:56.644+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:36:56.658+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:36:56.658+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:36:56.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.410 seconds
+[2025-05-05T07:37:27.105+0000] {processor.py:161} INFO - Started process (PID=951) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:37:27.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:37:27.108+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:37:27.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:37:27.275+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:37:27.299+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:37:27.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:37:27.311+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:37:27.311+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:37:27.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.232 seconds
+[2025-05-05T07:37:58.121+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:37:58.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:37:58.125+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:37:58.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:37:58.267+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:37:58.297+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:37:58.297+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:37:58.310+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:37:58.310+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:37:58.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.220 seconds
+[2025-05-05T07:38:28.694+0000] {processor.py:161} INFO - Started process (PID=971) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:38:28.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:38:28.699+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:38:28.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:38:28.838+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:38:28.868+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:38:28.868+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:38:28.881+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:38:28.881+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:38:28.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.214 seconds
+[2025-05-05T07:38:59.420+0000] {processor.py:161} INFO - Started process (PID=981) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:38:59.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:38:59.423+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:38:59.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:38:59.582+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:38:59.609+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:38:59.609+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:38:59.622+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:38:59.622+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:38:59.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.230 seconds
+[2025-05-05T07:39:30.167+0000] {processor.py:161} INFO - Started process (PID=991) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:39:30.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:39:30.172+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:39:30.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:39:30.338+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:39:30.363+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:39:30.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:39:30.377+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:39:30.377+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:39:30.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.242 seconds
+[2025-05-05T07:40:00.885+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:40:00.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:40:00.888+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:40:00.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:40:01.031+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:40:01.057+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:40:01.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:40:01.069+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:40:01.068+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:40:01.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.236 seconds
+[2025-05-05T07:40:31.594+0000] {processor.py:161} INFO - Started process (PID=1011) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:40:31.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:40:31.598+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:40:31.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:40:31.806+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:40:31.840+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:40:31.840+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:40:31.857+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:40:31.857+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:40:31.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.296 seconds
+[2025-05-05T07:41:02.531+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:41:02.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:41:02.534+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:41:02.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:41:02.700+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:41:02.744+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:41:02.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:41:02.761+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:41:02.760+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:41:02.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.282 seconds
+[2025-05-05T07:41:33.433+0000] {processor.py:161} INFO - Started process (PID=1031) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:41:33.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:41:33.722+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:41:33.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:41:33.883+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:41:33.918+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:41:33.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:41:33.932+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:41:33.932+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:41:33.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.531 seconds
+[2025-05-05T07:42:04.512+0000] {processor.py:161} INFO - Started process (PID=1041) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:42:04.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:42:04.515+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:42:04.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:42:04.674+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:42:04.713+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:42:04.712+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:42:04.729+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:42:04.729+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:42:04.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.250 seconds
+[2025-05-05T07:42:35.250+0000] {processor.py:161} INFO - Started process (PID=1051) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:42:35.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:42:35.253+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:42:35.253+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:42:35.397+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:42:35.425+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:42:35.424+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:42:35.438+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:42:35.437+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:42:35.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.214 seconds
+[2025-05-05T07:43:05.680+0000] {processor.py:161} INFO - Started process (PID=1061) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:43:05.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:43:05.684+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:43:05.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:43:05.819+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:43:05.845+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:43:05.845+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:43:05.858+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:43:05.858+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:43:05.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.220 seconds
+[2025-05-05T07:43:36.295+0000] {processor.py:161} INFO - Started process (PID=1071) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:43:36.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:43:36.299+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:43:36.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:43:36.450+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:43:36.476+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:43:36.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:43:36.489+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:43:36.489+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:43:36.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T07:44:07.189+0000] {processor.py:161} INFO - Started process (PID=1081) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:44:07.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:44:07.194+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:44:07.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:44:07.372+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:44:07.411+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:44:07.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:44:07.433+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:44:07.433+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:44:07.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.278 seconds
+[2025-05-05T07:44:37.569+0000] {processor.py:161} INFO - Started process (PID=1091) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:44:37.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:44:37.572+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:44:37.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:44:37.725+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:44:37.753+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:44:37.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:44:37.766+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:44:37.766+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:44:37.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T07:45:08.601+0000] {processor.py:161} INFO - Started process (PID=1101) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:45:08.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:45:08.604+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:45:08.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:45:08.752+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:45:08.778+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:45:08.778+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:45:08.793+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:45:08.793+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:45:08.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.228 seconds
+[2025-05-05T07:45:39.527+0000] {processor.py:161} INFO - Started process (PID=1111) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:45:39.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:45:39.530+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:45:39.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:45:39.668+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:45:39.695+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:45:39.695+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:45:39.708+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:45:39.708+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:45:39.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.208 seconds
+[2025-05-05T07:46:10.332+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:46:10.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:46:10.338+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:46:10.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:46:10.579+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:46:10.605+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:46:10.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:46:10.618+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:46:10.618+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:46:10.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.315 seconds
+[2025-05-05T07:46:41.202+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:46:41.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:46:41.205+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:46:41.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:46:41.340+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:46:41.370+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:46:41.370+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:46:41.388+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:46:41.388+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:46:41.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.214 seconds
+[2025-05-05T07:47:12.016+0000] {processor.py:161} INFO - Started process (PID=1141) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:47:12.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:47:12.019+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:47:12.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:47:12.155+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:47:12.183+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:47:12.183+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:47:12.201+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:47:12.201+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:47:12.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.219 seconds
+[2025-05-05T07:47:42.824+0000] {processor.py:161} INFO - Started process (PID=1151) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:47:42.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:47:42.827+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:47:42.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:47:42.978+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:47:43.004+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:47:43.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:47:43.030+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:47:43.030+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:47:43.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.244 seconds
+[2025-05-05T07:48:13.709+0000] {processor.py:161} INFO - Started process (PID=1161) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:48:13.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:48:13.712+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:48:13.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:48:13.862+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:48:13.893+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:48:13.893+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:48:13.907+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:48:13.907+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:48:13.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.226 seconds
+[2025-05-05T07:48:44.561+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:48:44.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:48:44.565+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:48:44.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:48:44.749+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:48:44.786+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:48:44.785+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:48:44.802+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:48:44.802+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:48:44.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.270 seconds
+[2025-05-05T07:49:15.617+0000] {processor.py:161} INFO - Started process (PID=1181) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:49:15.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:49:15.620+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:49:15.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:49:15.757+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:49:15.785+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:49:15.785+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:49:15.798+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:49:15.798+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:49:15.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.209 seconds
+[2025-05-05T07:49:46.463+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:49:46.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:49:46.469+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:49:46.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:49:46.630+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:49:46.655+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:49:46.655+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:49:46.668+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:49:46.668+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:49:46.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.239 seconds
+[2025-05-05T07:50:17.279+0000] {processor.py:161} INFO - Started process (PID=1201) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:50:17.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:50:17.283+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:50:17.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:50:17.448+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:50:17.476+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:50:17.475+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:50:17.489+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:50:17.489+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:50:17.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.243 seconds
+[2025-05-05T07:50:48.193+0000] {processor.py:161} INFO - Started process (PID=1211) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:50:48.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:50:48.197+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:50:48.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:50:48.335+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:50:48.362+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:50:48.361+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:50:48.376+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:50:48.375+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:50:48.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.211 seconds
+[2025-05-05T07:51:18.851+0000] {processor.py:161} INFO - Started process (PID=1221) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:51:18.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:51:18.855+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:51:18.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:51:18.991+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:51:19.019+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:51:19.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:51:19.031+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:51:19.031+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:51:19.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.208 seconds
+[2025-05-05T07:51:49.737+0000] {processor.py:161} INFO - Started process (PID=1231) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:51:49.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:51:49.740+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:51:49.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:51:49.884+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:51:49.910+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:51:49.910+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:51:49.923+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:51:49.923+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:51:49.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.213 seconds
+[2025-05-05T07:52:20.580+0000] {processor.py:161} INFO - Started process (PID=1241) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:52:20.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:52:20.584+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:52:20.584+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:52:20.865+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:52:20.898+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:52:20.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:52:20.916+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:52:20.916+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:52:20.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.366 seconds
+[2025-05-05T07:52:51.307+0000] {processor.py:161} INFO - Started process (PID=1251) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:52:51.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:52:51.319+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:52:51.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:52:51.553+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:52:51.581+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:52:51.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:52:51.594+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:52:51.593+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:52:51.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.348 seconds
+[2025-05-05T07:53:22.144+0000] {processor.py:161} INFO - Started process (PID=1267) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:53:22.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:53:22.147+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:53:22.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:53:22.294+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:53:22.320+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:53:22.320+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:53:22.334+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:53:22.334+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:53:22.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.239 seconds
+[2025-05-05T07:53:52.967+0000] {processor.py:161} INFO - Started process (PID=1277) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:53:52.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:53:52.971+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:53:52.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:53:53.124+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:53:53.153+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:53:53.153+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:53:53.167+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:53:53.167+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:53:53.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T07:54:23.927+0000] {processor.py:161} INFO - Started process (PID=1287) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:54:23.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:54:23.930+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:54:23.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:54:24.073+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:54:24.101+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:54:24.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:54:24.116+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:54:24.115+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:54:24.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.218 seconds
+[2025-05-05T07:54:54.479+0000] {processor.py:161} INFO - Started process (PID=1297) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:54:54.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:54:54.483+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:54:54.482+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:54:54.625+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:54:54.652+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:54:54.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:54:54.666+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:54:54.666+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:54:54.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.215 seconds
+[2025-05-05T07:55:25.268+0000] {processor.py:161} INFO - Started process (PID=1307) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:55:25.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:55:25.272+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:55:25.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:55:25.409+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:55:25.436+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:55:25.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:55:25.450+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:55:25.449+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:55:25.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.210 seconds
+[2025-05-05T07:55:56.176+0000] {processor.py:161} INFO - Started process (PID=1317) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:55:56.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:55:56.180+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:55:56.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:55:56.336+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:55:56.362+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:55:56.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:55:56.374+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:55:56.374+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:55:56.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T07:56:26.928+0000] {processor.py:161} INFO - Started process (PID=1327) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:56:26.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:56:26.932+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:56:26.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:56:27.096+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:56:27.131+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:56:27.131+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:56:27.255+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:56:27.255+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:56:27.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.358 seconds
+[2025-05-05T07:56:57.884+0000] {processor.py:161} INFO - Started process (PID=1337) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:56:57.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:56:57.888+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:56:57.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:56:58.069+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:56:58.102+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:56:58.101+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:56:58.118+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:56:58.118+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:56:58.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.265 seconds
+[2025-05-05T07:57:28.746+0000] {processor.py:161} INFO - Started process (PID=1347) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:57:28.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:57:28.749+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:57:28.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:57:28.906+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:57:28.932+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:57:28.932+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:57:28.946+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:57:28.946+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:57:28.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.228 seconds
+[2025-05-05T07:57:59.664+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:57:59.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:57:59.667+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:57:59.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:57:59.809+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:57:59.834+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:57:59.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:57:59.847+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:57:59.847+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:57:59.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.211 seconds
+[2025-05-05T07:58:30.489+0000] {processor.py:161} INFO - Started process (PID=1367) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:58:30.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:58:30.494+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:58:30.493+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:58:30.694+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:58:30.724+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:58:30.724+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:58:30.744+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:58:30.744+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:58:30.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.288 seconds
+[2025-05-05T07:59:01.406+0000] {processor.py:161} INFO - Started process (PID=1377) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:59:01.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:59:01.411+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:59:01.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:59:01.578+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:59:01.609+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:59:01.609+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:59:01.628+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:59:01.628+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:59:01.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.257 seconds
+[2025-05-05T07:59:32.170+0000] {processor.py:161} INFO - Started process (PID=1387) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T07:59:32.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T07:59:32.174+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:59:32.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T07:59:32.334+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T07:59:32.368+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:59:32.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T07:59:32.384+0000] {logging_mixin.py:188} INFO - [2025-05-05T07:59:32.384+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T07:59:32.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.240 seconds
+[2025-05-05T08:00:02.461+0000] {processor.py:161} INFO - Started process (PID=1397) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:00:02.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:00:02.465+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:00:02.465+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:00:02.659+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:00:02.701+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:00:02.700+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:00:02.719+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:00:02.719+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:00:02.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.290 seconds
+[2025-05-05T08:00:33.443+0000] {processor.py:161} INFO - Started process (PID=1407) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:00:33.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:00:33.447+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:00:33.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:00:33.587+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:00:33.619+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:00:33.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:00:33.635+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:00:33.635+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:00:33.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.224 seconds
+[2025-05-05T08:01:04.310+0000] {processor.py:161} INFO - Started process (PID=1417) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:01:04.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:01:04.316+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:01:04.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:01:04.482+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:01:04.509+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:01:04.509+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:01:04.522+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:01:04.522+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:01:04.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.243 seconds
+[2025-05-05T08:01:35.189+0000] {processor.py:161} INFO - Started process (PID=1427) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:01:35.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:01:35.193+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:01:35.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:01:35.347+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:01:35.379+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:01:35.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:01:35.392+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:01:35.392+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:01:35.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.233 seconds
+[2025-05-05T08:02:06.047+0000] {processor.py:161} INFO - Started process (PID=1437) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:02:06.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:02:06.050+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:02:06.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:02:06.186+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:02:06.214+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:02:06.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:02:06.228+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:02:06.228+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:02:06.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T08:02:37.011+0000] {processor.py:161} INFO - Started process (PID=1447) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:02:37.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:02:37.013+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:02:37.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:02:37.152+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:02:37.180+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:02:37.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:02:37.193+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:02:37.193+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:02:37.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.211 seconds
+[2025-05-05T08:03:08.028+0000] {processor.py:161} INFO - Started process (PID=1457) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:03:08.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:03:08.032+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:03:08.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:03:08.166+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:03:08.191+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:03:08.191+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:03:08.203+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:03:08.203+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:03:08.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.204 seconds
+[2025-05-05T08:03:38.804+0000] {processor.py:161} INFO - Started process (PID=1468) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:03:38.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:03:38.807+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:03:38.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:03:38.944+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:03:38.977+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:03:38.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:03:38.990+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:03:38.990+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:03:39.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.226 seconds
+[2025-05-05T08:04:09.555+0000] {processor.py:161} INFO - Started process (PID=1478) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:04:09.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:04:09.558+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:04:09.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:04:09.705+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:04:09.734+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:04:09.734+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:04:09.747+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:04:09.747+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:04:09.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.221 seconds
+[2025-05-05T08:04:40.458+0000] {processor.py:161} INFO - Started process (PID=1488) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:04:40.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:04:40.462+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:04:40.462+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:04:40.596+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:04:40.623+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:04:40.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:04:40.637+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:04:40.637+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:04:40.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.226 seconds
+[2025-05-05T08:05:11.222+0000] {processor.py:161} INFO - Started process (PID=1498) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:05:11.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:05:11.228+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:05:11.227+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:05:11.491+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:05:11.533+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:05:11.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:05:11.553+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:05:11.553+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:05:11.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.367 seconds
+[2025-05-05T08:05:42.000+0000] {processor.py:161} INFO - Started process (PID=1508) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:05:42.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:05:42.003+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:05:42.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:05:42.167+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:05:42.202+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:05:42.201+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:05:42.216+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:05:42.216+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:05:42.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.250 seconds
+[2025-05-05T08:06:12.952+0000] {processor.py:161} INFO - Started process (PID=1518) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:06:12.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:06:12.956+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:06:12.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:06:13.090+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:06:13.116+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:06:13.115+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:06:13.127+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:06:13.127+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:06:13.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.202 seconds
+[2025-05-05T08:06:43.691+0000] {processor.py:161} INFO - Started process (PID=1528) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:06:43.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:06:43.696+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:06:43.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:06:43.829+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:06:43.853+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:06:43.853+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:06:43.867+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:06:43.867+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:06:43.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.207 seconds
+[2025-05-05T08:07:14.498+0000] {processor.py:161} INFO - Started process (PID=1538) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:07:14.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:07:14.501+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:07:14.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:07:14.692+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:07:14.726+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:07:14.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:07:14.748+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:07:14.747+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:07:14.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.285 seconds
+[2025-05-05T08:07:45.415+0000] {processor.py:161} INFO - Started process (PID=1548) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:07:45.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:07:45.417+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:07:45.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:07:45.577+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:07:45.606+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:07:45.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:07:45.621+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:07:45.620+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:07:45.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.232 seconds
+[2025-05-05T08:08:16.341+0000] {processor.py:161} INFO - Started process (PID=1558) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:08:16.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:08:16.346+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:08:16.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:08:16.508+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:08:16.536+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:08:16.536+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:08:16.550+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:08:16.550+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:08:16.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.241 seconds
+[2025-05-05T08:08:47.052+0000] {processor.py:161} INFO - Started process (PID=1568) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:08:47.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:08:47.055+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:08:47.055+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:08:47.199+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:08:47.228+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:08:47.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:08:47.242+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:08:47.241+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:08:47.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.217 seconds
+[2025-05-05T08:09:17.964+0000] {processor.py:161} INFO - Started process (PID=1578) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:09:17.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:09:17.969+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:09:17.969+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:09:18.135+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:09:18.164+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:09:18.163+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:09:18.178+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:09:18.178+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:09:18.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.243 seconds
+[2025-05-05T08:09:48.831+0000] {processor.py:161} INFO - Started process (PID=1587) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:09:48.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:09:48.835+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:09:48.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:09:48.980+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:09:49.005+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:09:49.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:09:49.018+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:09:49.017+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:09:49.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.214 seconds
+[2025-05-05T08:10:19.585+0000] {processor.py:161} INFO - Started process (PID=1597) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:10:19.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:10:19.589+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:10:19.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:10:19.734+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:10:19.762+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:10:19.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:10:19.778+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:10:19.777+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:10:19.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.221 seconds
+[2025-05-05T08:10:50.522+0000] {processor.py:161} INFO - Started process (PID=1607) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:10:50.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:10:50.525+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:10:50.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:10:50.671+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:10:50.698+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:10:50.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:10:50.711+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:10:50.711+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:10:50.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.219 seconds
+[2025-05-05T08:11:21.278+0000] {processor.py:161} INFO - Started process (PID=1617) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:11:21.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:11:21.282+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:11:21.281+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:11:21.422+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:11:21.456+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:11:21.456+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:11:21.486+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:11:21.486+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:11:21.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.254 seconds
+[2025-05-05T08:11:52.200+0000] {processor.py:161} INFO - Started process (PID=1627) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:11:52.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:11:52.206+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:11:52.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:11:52.450+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:11:52.526+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:11:52.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:11:52.563+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:11:52.563+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:11:52.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.435 seconds
+[2025-05-05T08:12:22.791+0000] {processor.py:161} INFO - Started process (PID=1637) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:12:22.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:12:22.794+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:12:22.794+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:12:22.956+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:12:22.984+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:12:22.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:12:22.998+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:12:22.998+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:12:23.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.237 seconds
+[2025-05-05T08:12:53.838+0000] {processor.py:161} INFO - Started process (PID=1647) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:12:53.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:12:53.841+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:12:53.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:12:53.982+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:12:54.010+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:12:54.010+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:12:54.024+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:12:54.024+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:12:54.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.215 seconds
+[2025-05-05T08:13:24.798+0000] {processor.py:161} INFO - Started process (PID=1663) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:13:24.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:13:24.803+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:13:24.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:13:25.014+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:13:25.058+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:13:25.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:13:25.079+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:13:25.079+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:13:25.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.313 seconds
+[2025-05-05T08:13:55.997+0000] {processor.py:161} INFO - Started process (PID=1673) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:13:55.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:13:56.001+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:13:56.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:13:56.179+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:13:56.210+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:13:56.210+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:13:56.228+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:13:56.228+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:13:56.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.268 seconds
+[2025-05-05T08:14:27.028+0000] {processor.py:161} INFO - Started process (PID=1683) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:14:27.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:14:27.032+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:14:27.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:14:27.203+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:14:27.233+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:14:27.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:14:27.249+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:14:27.249+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:14:27.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.261 seconds
+[2025-05-05T08:14:57.839+0000] {processor.py:161} INFO - Started process (PID=1693) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:14:57.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:14:57.842+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:14:57.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:14:58.002+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:14:58.029+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:14:58.029+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:14:58.043+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:14:58.043+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:14:58.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.232 seconds
+[2025-05-05T08:15:28.813+0000] {processor.py:161} INFO - Started process (PID=1703) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:15:28.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:15:28.829+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:15:28.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:15:29.025+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:15:29.052+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:15:29.051+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:15:29.065+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:15:29.064+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:15:29.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.306 seconds
+[2025-05-05T08:15:59.565+0000] {processor.py:161} INFO - Started process (PID=1713) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:15:59.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:15:59.569+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:15:59.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:15:59.767+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:15:59.803+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:15:59.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:15:59.822+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:15:59.821+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:15:59.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.292 seconds
+[2025-05-05T08:16:30.379+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:16:30.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:16:30.383+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:16:30.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:16:30.533+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:16:30.565+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:16:30.564+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:16:30.579+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:16:30.579+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:16:30.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.227 seconds
+[2025-05-05T08:17:01.011+0000] {processor.py:161} INFO - Started process (PID=1733) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:17:01.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:17:01.015+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:17:01.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:17:01.166+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:17:01.197+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:17:01.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:17:01.211+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:17:01.210+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:17:01.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.228 seconds
+[2025-05-05T08:17:31.947+0000] {processor.py:161} INFO - Started process (PID=1743) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:17:31.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:17:31.952+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:17:31.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:17:32.184+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:17:32.216+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:17:32.215+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:17:32.232+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:17:32.232+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:17:32.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.321 seconds
+[2025-05-05T08:18:02.863+0000] {processor.py:161} INFO - Started process (PID=1753) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:18:02.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:18:02.868+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:18:02.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:18:03.036+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:18:03.067+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:18:03.067+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:18:03.080+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:18:03.080+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:18:03.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.252 seconds
+[2025-05-05T08:18:33.857+0000] {processor.py:161} INFO - Started process (PID=1763) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:18:33.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:18:33.861+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:18:33.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:18:34.072+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:18:34.109+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:18:34.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:18:34.127+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:18:34.126+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:18:34.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.309 seconds
+[2025-05-05T08:19:04.584+0000] {processor.py:161} INFO - Started process (PID=1773) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:19:04.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:19:04.588+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:19:04.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:19:04.854+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:19:04.901+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:19:04.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:19:04.923+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:19:04.923+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:19:04.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.390 seconds
+[2025-05-05T08:19:35.237+0000] {processor.py:161} INFO - Started process (PID=1783) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:19:35.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:19:35.241+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:19:35.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:19:35.399+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:19:35.428+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:19:35.428+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:19:35.442+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:19:35.441+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:19:35.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.233 seconds
+[2025-05-05T08:20:06.090+0000] {processor.py:161} INFO - Started process (PID=1793) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:20:06.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:20:06.096+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:20:06.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:20:06.274+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:20:06.301+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:20:06.301+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:20:06.316+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:20:06.316+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:20:06.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.261 seconds
+[2025-05-05T08:20:36.945+0000] {processor.py:161} INFO - Started process (PID=1803) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:20:36.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:20:36.950+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:20:36.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:20:37.135+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:20:37.173+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:20:37.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:20:37.195+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:20:37.195+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:20:37.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.285 seconds
+[2025-05-05T08:21:07.900+0000] {processor.py:161} INFO - Started process (PID=1813) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:21:07.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:21:07.904+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:21:07.904+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:21:08.058+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:21:08.197+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:21:08.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:21:08.213+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:21:08.213+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:21:08.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.347 seconds
+[2025-05-05T08:21:38.811+0000] {processor.py:161} INFO - Started process (PID=1823) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:21:38.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:21:38.814+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:21:38.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:21:38.990+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:21:39.019+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:21:39.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:21:39.036+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:21:39.036+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:21:39.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.266 seconds
+[2025-05-05T08:22:09.661+0000] {processor.py:161} INFO - Started process (PID=1833) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:22:09.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:22:09.665+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:22:09.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:22:09.809+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:22:09.836+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:22:09.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:22:09.848+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:22:09.848+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:22:09.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.218 seconds
+[2025-05-05T08:22:40.364+0000] {processor.py:161} INFO - Started process (PID=1843) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:22:40.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:22:40.368+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:22:40.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:22:40.510+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:22:40.541+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:22:40.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:22:40.553+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:22:40.553+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:22:40.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.216 seconds
+[2025-05-05T08:23:11.319+0000] {processor.py:161} INFO - Started process (PID=1853) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:23:11.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:23:11.323+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:23:11.323+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:23:11.461+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:23:11.486+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:23:11.486+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:23:11.504+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:23:11.504+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:23:11.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.215 seconds
+[2025-05-05T08:23:42.015+0000] {processor.py:161} INFO - Started process (PID=1863) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:23:42.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:23:42.021+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:23:42.021+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:23:42.335+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:23:42.390+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:23:42.390+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:23:42.410+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:23:42.410+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:23:42.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.445 seconds
+[2025-05-05T08:24:13.200+0000] {processor.py:161} INFO - Started process (PID=1873) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:24:13.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:24:13.203+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:24:13.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:24:13.344+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:24:13.371+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:24:13.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:24:13.385+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:24:13.384+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:24:13.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.215 seconds
+[2025-05-05T08:24:44.020+0000] {processor.py:161} INFO - Started process (PID=1883) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:24:44.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:24:44.023+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:24:44.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:24:44.176+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:24:44.204+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:24:44.204+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:24:44.220+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:24:44.219+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:24:44.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.233 seconds
+[2025-05-05T08:25:14.650+0000] {processor.py:161} INFO - Started process (PID=1893) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:25:14.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:25:14.653+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:25:14.653+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:25:14.829+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:25:14.870+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:25:14.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:25:14.886+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:25:14.886+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:25:14.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.279 seconds
+[2025-05-05T08:25:45.660+0000] {processor.py:161} INFO - Started process (PID=1903) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:25:45.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:25:45.668+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:25:45.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:25:45.939+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:25:45.974+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:25:45.973+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:25:45.991+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:25:45.991+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:25:46.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.387 seconds
+[2025-05-05T08:26:16.630+0000] {processor.py:161} INFO - Started process (PID=1913) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:26:16.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:26:16.633+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:26:16.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:26:16.795+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:26:16.826+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:26:16.826+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:26:16.840+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:26:16.840+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:26:16.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.244 seconds
+[2025-05-05T08:26:47.204+0000] {processor.py:161} INFO - Started process (PID=1923) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:26:47.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:26:47.209+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:26:47.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:26:47.371+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:26:47.398+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:26:47.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:26:47.411+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:26:47.411+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:26:47.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.237 seconds
+[2025-05-05T08:27:18.075+0000] {processor.py:161} INFO - Started process (PID=1934) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:27:18.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:27:18.079+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:27:18.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:27:18.227+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:27:18.255+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:27:18.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:27:18.271+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:27:18.270+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:27:18.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T08:27:48.826+0000] {processor.py:161} INFO - Started process (PID=1944) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:27:48.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:27:48.833+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:27:48.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:27:48.994+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:27:49.025+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:27:49.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:27:49.041+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:27:49.040+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:27:49.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.260 seconds
+[2025-05-05T08:28:19.536+0000] {processor.py:161} INFO - Started process (PID=1954) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:28:19.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:28:19.541+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:28:19.540+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:28:19.726+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:28:19.762+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:28:19.761+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:28:19.779+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:28:19.779+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:28:19.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.275 seconds
+[2025-05-05T08:28:50.521+0000] {processor.py:161} INFO - Started process (PID=1964) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:28:50.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:28:50.536+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:28:50.535+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:28:50.896+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:28:50.926+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:28:50.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:28:50.941+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:28:50.940+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:28:50.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.478 seconds
+[2025-05-05T08:29:21.660+0000] {processor.py:161} INFO - Started process (PID=1974) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:29:21.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:29:21.664+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:29:21.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:29:21.836+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:29:21.869+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:29:21.868+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:29:21.888+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:29:21.887+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:29:21.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.264 seconds
+[2025-05-05T08:29:52.571+0000] {processor.py:161} INFO - Started process (PID=1984) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:29:52.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:29:52.575+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:29:52.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:29:52.728+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:29:52.753+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:29:52.753+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:29:52.766+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:29:52.765+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:29:52.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.236 seconds
+[2025-05-05T08:30:23.291+0000] {processor.py:161} INFO - Started process (PID=1994) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:30:23.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:30:23.294+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:30:23.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:30:23.449+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:30:23.477+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:30:23.477+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:30:23.492+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:30:23.491+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:30:23.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.231 seconds
+[2025-05-05T08:30:54.140+0000] {processor.py:161} INFO - Started process (PID=2004) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:30:54.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:30:54.143+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:30:54.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:30:54.313+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:30:54.344+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:30:54.344+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:30:54.358+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:30:54.358+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:30:54.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.248 seconds
+[2025-05-05T08:31:25.067+0000] {processor.py:161} INFO - Started process (PID=2014) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:31:25.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:31:25.072+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:31:25.072+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:31:25.280+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:31:25.310+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:31:25.309+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:31:25.322+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:31:25.322+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:31:25.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.291 seconds
+[2025-05-05T08:31:55.842+0000] {processor.py:161} INFO - Started process (PID=2024) to work on /opt/airflow/dags/myspark.py
+[2025-05-05T08:31:55.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/myspark.py for tasks to queue
+[2025-05-05T08:31:55.845+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:31:55.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/myspark.py
+[2025-05-05T08:31:56.004+0000] {processor.py:840} INFO - DAG(s) 'myspark' retrieved from /opt/airflow/dags/myspark.py
+[2025-05-05T08:31:56.033+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:31:56.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-05T08:31:56.050+0000] {logging_mixin.py:188} INFO - [2025-05-05T08:31:56.049+0000] {dag.py:3954} INFO - Setting next_dagrun for myspark to None, run_after=None
+[2025-05-05T08:31:56.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/myspark.py took 0.238 seconds

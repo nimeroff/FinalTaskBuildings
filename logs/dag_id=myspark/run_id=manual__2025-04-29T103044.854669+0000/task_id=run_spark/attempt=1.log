@@ -1,0 +1,26 @@
+[2025-04-29T10:30:46.774+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-04-29T10:30:46.800+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: myspark.run_spark manual__2025-04-29T10:30:44.854669+00:00 [queued]>
+[2025-04-29T10:30:46.809+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: myspark.run_spark manual__2025-04-29T10:30:44.854669+00:00 [queued]>
+[2025-04-29T10:30:46.810+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-04-29T10:30:46.833+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): run_spark> on 2025-04-29 10:30:44.854669+00:00
+[2025-04-29T10:30:46.840+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=63) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-29T10:30:46.841+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'myspark', 'run_spark', 'manual__2025-04-29T10:30:44.854669+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/myspark.py', '--cfg-path', '/tmp/tmpxaaici1x']
+[2025-04-29T10:30:46.842+0000] {standard_task_runner.py:63} INFO - Started process 64 to run task
+[2025-04-29T10:30:46.843+0000] {standard_task_runner.py:91} INFO - Job 16: Subtask run_spark
+[2025-04-29T10:30:46.893+0000] {task_command.py:426} INFO - Running <TaskInstance: myspark.run_spark manual__2025-04-29T10:30:44.854669+00:00 [running]> on host f5e2a18f7b01
+[2025-04-29T10:30:46.992+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='myspark' AIRFLOW_CTX_TASK_ID='run_spark' AIRFLOW_CTX_EXECUTION_DATE='2025-04-29T10:30:44.854669+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-29T10:30:44.854669+00:00'
+[2025-04-29T10:30:46.993+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-04-29T10:31:00.601+0000] {logging_mixin.py:188} INFO - +-----+---+
+| Name|Age|
++-----+---+
+|Alice| 34|
+|  Bob| 45|
++-----+---+
+[2025-04-29T10:31:01.548+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-04-29T10:31:01.549+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-04-29T10:31:01.560+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=myspark, task_id=run_spark, run_id=manual__2025-04-29T10:30:44.854669+00:00, execution_date=20250429T103044, start_date=20250429T103046, end_date=20250429T103101
+[2025-04-29T10:31:01.615+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-04-29T10:31:01.637+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-29T10:31:01.648+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
