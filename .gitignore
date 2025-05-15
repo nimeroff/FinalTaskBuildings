@@ -6,4 +6,5 @@
 */__pycache__
 # Игнорировать виртуальное окружение Python
 /venv
+/logs
 russian_houses.csv
