@@ -126,6 +126,7 @@ def ETL_CSV():
 
     #Работа с Clickhouse
     #Создадим таблицу, если нет
+    print("Топ 25 домов, у которых площадь больше 60")
     client.execute("""CREATE OR REPLACE TABLE default.buildings 
               (`house_id` UInt32, 
               `latitude` Float32, 
