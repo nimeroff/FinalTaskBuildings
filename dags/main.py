@@ -146,7 +146,7 @@ def ETL_CSV():
     #Подготовим данные для вставки
     data = [(r['house_id'], r['latitude'], r['longitude'], r['maintenance_year'], r['square'],
                  r['population'], r['region'], r['locality_name'], r['address'], r['full_address'],
-                 r['communal_service_id'], r['description']) for r in df.collect()]
+                 r['communal_service_id'], r['description']) for r in df_filter.collect()]
     client.execute('insert into default.buildings values ', data)  #выполним скрипт
 
     #Топ 25 домов, площадь которых больше 60
