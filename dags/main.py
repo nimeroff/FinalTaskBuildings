@@ -103,8 +103,16 @@ def ETL_CSV():
 
     #Здания с максимальной и минимальной площадью в рамках каждой области
     print("Здания с максимальной и минимальной площадью в рамках каждой области")
-    df_minax_square = spark.sql("select region, house_id, address, square from tcity t where square=(select min(square) from tcity where region=t.region) or \
-    square=(select max(square) from tcity where region=t.region) order by region asc, square asc")
+    #время выполнения 124.309, 93.252
+    # df_minax_square = spark.sql("select region, house_id, address,  case when square=(select min(square) from tcity where region=t.region) then 'MIN' \
+    # when square=(select max(square) from tcity where region=t.region) then 'MAX' end as sign, \
+    # square from tcity t where square=(select min(square) from tcity where region=t.region) or \
+    # square=(select max(square) from tcity where region=t.region) order by region asc, square asc")
+    # время выполнения 99.41, 92.706
+    df_minax_square = spark.sql("select region, house_id, address,  sign, square  from \
+      (select region, house_id, address,  'MIN' as sign, square from tcity t where square=(select min(square) from tcity where region=t.region) \
+      union select region, house_id, address,  'MAX' as sign, square from tcity t where square=(select max(square) from tcity where region=t.region)) \
+      order by region asc, square asc")
     df_minax_square.show()
 
     #Определим пользовательские функции
