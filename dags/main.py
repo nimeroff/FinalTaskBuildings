@@ -99,7 +99,8 @@ def ETL_CSV():
 
     #Топ  10 регионов и городов с наибольшим количеством объектов
     print("Топ 10 регионов-областей с наибольшим количеством объектов")
-    df.groupBy('region').agg({'house_id':'count'}).withColumnRenamed('count(house_id)','cnt_house').sort(desc('cnt_house')).show(10)
+    df_topten = df_filter.groupBy('region').agg({'house_id': 'count'}).withColumnRenamed('count(house_id)', 'cnt_house').sort(desc('cnt_house'))
+    df_topten.show(10)
 
     #Здания с максимальной и минимальной площадью в рамках каждой области
     print("Здания с максимальной и минимальной площадью в рамках каждой области")
