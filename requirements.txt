@@ -6,3 +6,4 @@ airflow-providers-clickhouse==0.0.1
 clickhouse-driver==0.2.9
 airflow-clickhouse-plugin
 clickhouse-driver==0.2.9
+matplotlib==3.10.3

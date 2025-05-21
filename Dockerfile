@@ -24,7 +24,7 @@ ENV PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9.7-src.zip
 # Копирование и установка Python зависимостей
 COPY requirements.txt /requirements.txt
 RUN chmod 777 /requirements.txt
-COPY postgresql-42.2.23.jar /app/postgresql-42.2.23.jar
+#COPY postgresql-42.2.23.jar /app/postgresql-42.2.23.jar
 
 USER airflow
 RUN pip install --upgrade pip && \

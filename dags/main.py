@@ -9,6 +9,7 @@ from airflow.utils.dates import days_ago
 from clickhouse_driver import Client
 import subprocess
 import requests
+import matplotlib.pyplot as plt
 
 client = Client(host='clickhouse', port=9000,user='default', password='')
 
@@ -49,6 +50,17 @@ def query_postgres(**kwargs):
     else:
         print(f"Failed to connect to PostgreSQL, error: {result.stderr}")
 
+def Diag(xlist,ylist,sg):
+    if sg==1:
+        # Построение графика
+        plt.bar(xlist, ylist)
+        plt.title('Топ 10 регионов с наибольшим количеством объектов')
+        plt.xlabel('Регионы')
+        plt.ylabel('Количество объектов')
+        plt.xticks(rotation=60, horizontalalignment='right', fontsize=10)
+        for ind, cat in enumerate(xlist):
+            plt.text(cat, ylist[ind] + 500, str(ylist[ind]), fontsize=8, ha='center')
+        plt.show()
 
 
 #Загрузите файл данных в DataFrame PySpark. Обязательно выведите количество строк.
@@ -101,6 +113,14 @@ def ETL_CSV():
     print("Топ 10 регионов-областей с наибольшим количеством объектов")
     df_topten = df_filter.groupBy('region').agg({'house_id': 'count'}).withColumnRenamed('count(house_id)', 'cnt_house').sort(desc('cnt_house'))
     df_topten.show(10)
+
+    #Подготовим датафрейм для диаграммы
+    df_topten = df_topten.withColumn('region', regexp_replace(col('region'), 'Республика', 'Респ.'))
+    df_topten = df_topten.withColumn('region', regexp_replace(col('region'), 'область', 'обл.'))
+    # Данные для диаграммы
+    categories = [r[0] for r in df_topten.select(df_topten.region).head(10)]
+    values = [r[0] for r in df_topten.select(df_topten.cnt_house).head(10)]
+    Diag(categories, values, 1)
 
     #Здания с максимальной и минимальной площадью в рамках каждой области
     print("Здания с максимальной и минимальной площадью в рамках каждой области")
@@ -156,7 +176,7 @@ def ETL_CSV():
     data = [(r['house_id'], r['latitude'], r['longitude'], r['maintenance_year'], r['square'],
                  r['population'], r['region'], r['locality_name'], r['address'], r['full_address'],
                  r['communal_service_id'], r['description']) for r in df_filter.collect()]
-    client.execute('insert into default.buildings values ', data)  #выполним скрипт
+    client.execute('insert into default.buildings values ', data)  #выполним скрипт вставки
 
     #Топ 25 домов, площадь которых больше 60
     lst = client.execute('select house_id, address, square from default.buildings where square>60 order by square desc limit 25')
@@ -167,8 +187,8 @@ def ETL_CSV():
 
 task_load_csvfile = BashOperator(
     task_id='task_load_csvfile',
-    bash_command='curl -X GET https://disk.yandex.ru/d/HZ08UBRlxoCJTg -o /opt/airflow/dags/main.txt',
-    #bash_command='echo "Hello"',
+    #bash_command='curl -X GET https://disk.yandex.ru/d/HZ08UBRlxoCJTg -o /opt/airflow/dags/russian_houses.csv',
+    bash_command='echo "Hello"',
     dag=dag,
 )
 
