@@ -130,7 +130,7 @@ def ETL_CSV():
     # square from tcity t where square=(select min(square) from tcity where region=t.region) or \
     # square=(select max(square) from tcity where region=t.region) order by region asc, square asc")
     # время выполнения 99.41, 92.706
-    df_minax_square = spark.sql("select region, house_id, address,  sign, square  from \
+    df_minax_square = spark.sql("select region, sign, house_id, address, square from \
       (select region, house_id, address,  'MIN' as sign, square from tcity t where square=(select min(square) from tcity where region=t.region) \
       union select region, house_id, address,  'MAX' as sign, square from tcity t where square=(select max(square) from tcity where region=t.region)) \
       order by region asc, square asc")
@@ -154,12 +154,52 @@ def ETL_CSV():
     df_cnt_build.show(10)
 
     #Работа с Clickhouse
-    #Создадим таблицу, если нет
-    print("Топ 25 домов, у которых площадь больше 60")
+    #Создадим таблицу, если нет для df_topten
+    #Топ 10 регионов и городов с наибольшим количеством объектов
+    #В датафрейм все регионы, загрузим их в таблицу topregion
+    client.execute("""CREATE OR REPLACE TABLE default.topregion 
+                  (`region` String, 
+                  `cnt_house` UInt32)  
+              ENGINE = MergeTree
+              ORDER BY cnt_house
+              SETTINGS index_granularity = 8192""")
+    data = [(r['region'], r['cnt_house']) for r in df_topten.collect()]
+    client.execute('insert into default.topregion values ', data)  # выполним скрипт вставки
+
+    #Здания с максимальной и минимальной площадью в рамках каждой области
+    #Создадим таблицу, если нет для df_minax_square
+    client.execute("""CREATE OR REPLACE TABLE default.minax_square_by_region_house 
+                      (`region` String, 
+                       `sign` String,
+                       `house_id` UInt32,
+                       `address` String,
+                       `square` Float32)  
+                  ENGINE = MergeTree
+                  ORDER BY region
+                  SETTINGS index_granularity = 8192""")
+    data = [(r['region'], r['sign'], r['house_id'], r['address'], r['square']) for r in df_minax_square.collect()]
+    client.execute('insert into default.minax_square_by_region_house values ', data)  # выполним скрипт вставки
+
+    #Здания по десятилетиям
+    #Создадим таблицу, если нет для df_cnt_build
+    client.execute("""CREATE OR REPLACE TABLE default.cnt_house_by_ten_years 
+                          (`mod_year` UInt32, 
+                           `cnt_build` UInt32
+                           )  
+                      ENGINE = MergeTree
+                      ORDER BY mod_year
+                      SETTINGS index_granularity = 8192""")
+    data = [(r['mod_year'], r['cnt_build']) for r in df_cnt_build.collect()]
+    client.execute('insert into default.cnt_house_by_ten_years values ', data)  # выполним скрипт вставки
+
+
+
+    # Топ 25 домов, площадь которых больше 60
+    #выгрузим датафрейм без выбросов в таблицу
     client.execute("""CREATE OR REPLACE TABLE default.buildings 
               (`house_id` UInt32, 
               `latitude` Float32, 
-              `longiude` Float32, 
+              `longitude` Float32, 
               `maintenance_year` UInt32, 
               `square` Float32,  
               `population` UInt32, 
@@ -172,15 +212,15 @@ def ETL_CSV():
           ENGINE = MergeTree
           ORDER BY house_id
           SETTINGS index_granularity = 8192""")
-    #Подготовим данные для вставки
+    #Подготовим данные для вставки без выбросов
     data = [(r['house_id'], r['latitude'], r['longitude'], r['maintenance_year'], r['square'],
                  r['population'], r['region'], r['locality_name'], r['address'], r['full_address'],
                  r['communal_service_id'], r['description']) for r in df_filter.collect()]
     client.execute('insert into default.buildings values ', data)  #выполним скрипт вставки
 
-    #Топ 25 домов, площадь которых больше 60
     lst = client.execute('select house_id, address, square from default.buildings where square>60 order by square desc limit 25')
     df_t = spark.createDataFrame(lst, ["house_id","address","square"]) #сохраним в датафрейм
+    print("Топ 25 домов, у которых площадь больше 60")
     df_t.show(25) #выводим
     spark.stop()
 
