@@ -116,7 +116,7 @@ def ETL_CSV():
     df_avg_year = df_filter.agg({'maintenance_year':'avg'}).withColumnRenamed('avg(maintenance_year)','avg_year').withColumn('avg_year',col('avg_year').cast('integer'))
     print(f"Средний год постройки {df_avg_year.select(round('avg_year', 0)).collect()[0][0]}")
     df_avg_year = spark.sql("select cast(avg(maintenance_year) as Int) as avg_year from tcity")
-    print(df_avg_year.select('avg_year').collect()[0][0])
+    #print(df_avg_year.select('avg_year').collect()[0][0])
     #вычисляем медианный год построек
     m_year = df_filter.select(percentile_approx("maintenance_year", [0.50], 1000000)).collect()[0][0][0]  # Третий квартиль (50-й процентиль)
     print(f"Медианный год постройки {m_year}")
@@ -210,8 +210,6 @@ def ETL_CSV():
                       SETTINGS index_granularity = 8192""")
     data = [(r['mod_year'], r['cnt_build']) for r in df_cnt_build.collect()]
     client.execute('insert into default.cnt_house_by_ten_years values ', data)  # выполним скрипт вставки
-
-
 
     # Топ 25 домов, площадь которых больше 60
     #выгрузим датафрейм без выбросов в таблицу
