@@ -64,8 +64,11 @@
 | Modified task BashOperator, add link to file csv | Модификация загрузки файла при помощи bash в рамках task                              |
 | Add 'print top 25 house' to last task            | Добавление сообщения "Топ 25 домов, у которых площадь больше 60" для последней задачи |
 | Update REadme.md                                 | Обновление README.md                                                                  | 
-| Update REadme.md add 'Описание коммитов'         | Исправление таблицы описание коммитов                                                 |
-
+| Add new script min max square                    | Разработан новый скрипт вывода зданий с макс. и мин. площадью по регионам, время выполнения меньше предыдущего, старый скрипт закоментирован |
+| Modified srcipt 'Топ 10 регионов с наиб. кол. объектов', выборка произведена из df_filter и сохранён в df_topten | df_filter - датафрейм без выбросов |
+| Убрано копирование jar драйвер для PSTGRSQL из Dockerfile, добавлена matplotlib==3.10.3 в requirements.txt | Копирование драйвера для досступа к PostrgreSQL не требуется |
+| Add create table topregion,minax_square_by_region_house, cnt_house_by_ten_years and download data from dataframes | Добавлен код для создания таблиц в Clickhouse |
+| Add function Diag. Формирование гистограммы по 10 регионам с наиб кол. объектов и линейного графика 'Количество объектов по десятилетиям' | Добавлена функция для формирования и сохранение графиков в формате png, путь - /opt/airflow/dags/ |
 
     
 

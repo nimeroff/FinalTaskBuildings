@@ -71,7 +71,7 @@ def Diag(xlist,ylist,sg):
         for ind, cat in enumerate(xlist):
             plt.text(cat, ylist[ind], str(cat), fontsize=8, ha='center')
         plt.savefig('/opt/airflow/dags/decade_cnt_house.png',bbox_inches="tight")
-        print('Диаграмма загружена /opt/airflow/dags/decade_cnt_house.png')
+        print('Диаграмма загружена decade_cnt_house.png')
     plt.close()
 
 
