@@ -12,6 +12,7 @@
 - Файл ```russian_houses.csv``` загружается по внешней ссылке https://disk.yandex.ru/d/HZ08UBRlxoCJTg
 
 Выполняются следующие задачи:
+
 	1) Вывод версий Clickhouse и PostgreSQL при успешном подключении
 	
 	2) Загрузка файла 
@@ -37,8 +38,9 @@
 	12) Формирование топ 25 домов, у которых площадь больше 60 кв.м.
 	
 Граф в Airflow исполнен в следующем виде: 
-			```  task_query_clickhouse    task_query_postgres   task_load_csvfile task_csvetl```
-		     ```Вывод версии Clickhouse Вывод версии PostgreSQL   Загрузка файла  Обработка файла```
+
+```  task_query_clickhouse >> task_query_postgres >> task_load_csvfile task_csvetl >> ```
+```Вывод версии Clickhouse >> Вывод версии PostgreSQL >> Загрузка файла  Обработка файла```
 
 ![Граф](/DAG.png)			 
 
