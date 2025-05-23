@@ -211,6 +211,8 @@ def ETL_CSV():
     data = [(r['mod_year'], r['cnt_build']) for r in df_cnt_build.collect()]
     client.execute('insert into default.cnt_house_by_ten_years values ', data)  # выполним скрипт вставки
 
+
+
     # Топ 25 домов, площадь которых больше 60
     #выгрузим датафрейм без выбросов в таблицу
     client.execute("""CREATE OR REPLACE TABLE default.buildings 
