@@ -246,8 +246,8 @@ def ETL_CSV():
 
 task_load_csvfile = BashOperator(
     task_id='task_load_csvfile',
-    #bash_command='curl -X GET https://disk.yandex.ru/d/HZ08UBRlxoCJTg -o /opt/airflow/dags/russian_houses.csv',
-    bash_command='echo "Hello"',
+    bash_command='curl -X GET https://disk.yandex.ru/d/HZ08UBRlxoCJTg -o /opt/airflow/dags/russian_houses.csv',
+    #bash_command='echo "Hello"',
     dag=dag,
 )
 
