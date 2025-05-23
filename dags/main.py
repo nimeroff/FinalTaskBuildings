@@ -60,7 +60,19 @@ def Diag(xlist,ylist,sg):
         plt.xticks(rotation=60, horizontalalignment='right', fontsize=10)
         for ind, cat in enumerate(xlist):
             plt.text(cat, ylist[ind] + 500, str(ylist[ind]), fontsize=8, ha='center')
-        plt.show()
+        plt.savefig('/opt/airflow/dags/topregion.png',bbox_inches="tight")
+        print('Диаграмма загружена /opt/airflow/dags/topregion.png')
+    elif sg==2:
+        plt.plot(xlist,ylist)
+        plt.title('Количество объектов по десятилетиям')
+        plt.xlabel('Количество объектов')
+        plt.ylabel('Год')
+        plt.xticks(rotation=0, horizontalalignment='right', fontsize=10)
+        for ind, cat in enumerate(xlist):
+            plt.text(cat, ylist[ind], str(cat), fontsize=8, ha='center')
+        plt.savefig('/opt/airflow/dags/decade_cnt_house.png',bbox_inches="tight")
+        print('Диаграмма загружена /opt/airflow/dags/decade_cnt_house.png')
+    plt.close()
 
 
 #Загрузите файл данных в DataFrame PySpark. Обязательно выведите количество строк.
@@ -103,8 +115,8 @@ def ETL_CSV():
     #вычисляем средний год построек
     df_avg_year = df_filter.agg({'maintenance_year':'avg'}).withColumnRenamed('avg(maintenance_year)','avg_year').withColumn('avg_year',col('avg_year').cast('integer'))
     print(f"Средний год постройки {df_avg_year.select(round('avg_year', 0)).collect()[0][0]}")
-    #df_avg_year = spark.sql("select cast(avg(maintenance_year) as Int) as avg_year from tcity")
-    #print(df_avg_year.select('avg_year').collect()[0][0])
+    df_avg_year = spark.sql("select cast(avg(maintenance_year) as Int) as avg_year from tcity")
+    print(df_avg_year.select('avg_year').collect()[0][0])
     #вычисляем медианный год построек
     m_year = df_filter.select(percentile_approx("maintenance_year", [0.50], 1000000)).collect()[0][0][0]  # Третий квартиль (50-й процентиль)
     print(f"Медианный год постройки {m_year}")
@@ -114,6 +126,7 @@ def ETL_CSV():
     df_topten = df_filter.groupBy('region').agg({'house_id': 'count'}).withColumnRenamed('count(house_id)', 'cnt_house').sort(desc('cnt_house'))
     df_topten.show(10)
 
+    # .||.||.||.
     #Подготовим датафрейм для диаграммы
     df_topten = df_topten.withColumn('region', regexp_replace(col('region'), 'Республика', 'Респ.'))
     df_topten = df_topten.withColumn('region', regexp_replace(col('region'), 'область', 'обл.'))
@@ -152,6 +165,12 @@ def ETL_CSV():
     df_cnt_build = df_filter.withColumn('mod_year',delnum(col('maintenance_year'))).groupBy('mod_year').agg({'house_id':'count'}).withColumnRenamed('count(house_id)','cnt_build').sort(desc('cnt_build'))
     df_cnt_build = df_cnt_build.withColumn('mod_year',addzero(col('mod_year')))
     df_cnt_build.show(10)
+
+    # /\_/|____/\/\/\
+    # Данные для диаграммы
+    xvalues = [r[0] for r in df_cnt_build.select(df_cnt_build.cnt_build).head(10)]
+    yvalues = [r[0] for r in df_cnt_build.select(df_cnt_build.mod_year).head(10)]
+    Diag(xvalues, yvalues, 2)
 
     #Работа с Clickhouse
     #Создадим таблицу, если нет для df_topten
